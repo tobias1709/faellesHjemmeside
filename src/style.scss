@@ -1,1 +1,61 @@
 @import 'bemskel.css';
+
+body {
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* Header */
+
+.header-box {
+	background-color: rgba(255, 255, 255, 0.5);
+	height: 100px;
+	width: 100%;
+	position: absolute;
+
+}
+
+.tagline {
+	font-size: 3em;
+	margin: 1em;
+	color: #00000062;
+}
+
+.header-img {
+	width: 100%;
+	height: auto;
+}
+
+/* Footer */
+
+.contact-box {
+	background-color: #637773;	
+	height: 500px;
+	position: relative;
+	bottom: 100px;
+}
+
+/* Font awesome */
+
+.fonts {
+	font-size: 2.173em;
+	float: left;
+	color: #FFFFFF;
+	margin: 1em 0.8em 0em 4.063em;
+}
+
+/* Text under font awesome icons */
+
+.title {
+	font-weight: lighter;
+	color: #ffffff;
+	font-size: 1.313em;
+	padding-top: 1em;
+}
+
+.underline {
+	font-weight: lighter;
+	color: #a9b9c8;
+	font-size: 1.313em;
+	margin-left: 6.313em;
+}
