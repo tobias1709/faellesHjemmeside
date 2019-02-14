@@ -1,1 +1,131 @@
 @import 'bemskel.css';
+
+@import 'bemskel.css';
+
+// As hex codes */
+
+$color-primary-0: #637773;	// Main Primary color */
+$color-primary-1: #FFFFFF;
+$color-primary-2: #CED0D0;
+$color-primary-3: #215248;
+$color-primary-4: #001511;
+
+
+
+// As RGBa codes */
+
+$rgba-primary-0: rgba( 99,119,115,1);	// Main Primary color */
+$rgba-primary-1: rgba(255,255,255,1);
+$rgba-primary-2: rgba(206,208,208,1);
+$rgba-primary-3: rgba( 33, 82, 72,1);
+$rgba-primary-4: rgba(  0, 21, 17,1);
+
+
+body {
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* Header */
+
+.header-box {
+	background-color: $color-primary-0;
+	height: 100px;
+	width: 100%;
+
+}
+
+.tagline {
+	font-size: 3em;
+	color: $color-primary-2;
+	padding: 0.7em;
+}
+
+.header-img {
+	width: 100%;
+	height: 400px;
+}
+
+/* Footer */
+
+.contact-box {
+	background-color: $color-primary-0;	
+	height: 500px;
+	position: relative;
+}
+
+/* Font awesome */
+
+.fonts {
+	font-size: 2.173em;
+	float: left;
+	color: $color-primary-1;
+	margin: 1em 0.8em 0em 4.063em;
+}
+
+/* Text under font awesome icons */
+
+.title {
+	font-weight: lighter;
+	color: $color-primary-1;
+	font-size: 1.313em;
+	padding-top: 1em;
+}
+
+.underline {
+	font-weight: lighter;
+	color: $color-primary-2;
+	font-size: 1.313em;
+	margin-left: 6.313em;
+}
+
+/*Overall stuff*/
+html{
+	overflow-y: scroll;
+	-moz-scrollbars: vertical;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+p{
+	padding-bottom: 1em;
+}
+
+#wrapper{
+	margin: 0 auto;
+	max-width: 1200px;
+}
+/*Overall stuff end*/
+
+/*Navigation*/
+nav{
+	margin: 0% 0;
+	padding: 1.5%;
+	background-color: $color-primary-4;
+
+	ul{
+		display: flex;
+		justify-content: space-around;
+		flex-direction: row;
+		list-style-type: none;
+		margin-bottom: 0;
+
+		li{
+			padding-top: 5%;
+			text-align: center;
+		}
+	}
+}
+
+nav a{
+	width: 100%;
+	font-family: 'Miss Fajardose', cursive;
+	text-decoration: none;
+	color: $color-primary-1;
+	font-size: 3em;
+}
+/*Navigation end*/
