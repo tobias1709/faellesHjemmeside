@@ -23,7 +23,7 @@ body {
 
 .header-img {
 	width: 100%;
-	height: auto;
+	height: 400px;
 }
 
 /* Footer */
@@ -32,7 +32,6 @@ body {
 	background-color: #637773;	
 	height: 500px;
 	position: relative;
-	bottom: 100px;
 }
 
 /* Font awesome */
@@ -59,3 +58,53 @@ body {
 	font-size: 1.313em;
 	margin-left: 6.313em;
 }
+
+/*Overall stuff*/
+html{
+	overflow-y: scroll;
+	-moz-scrollbars: vertical;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+p{
+	padding-bottom: 1em;
+}
+
+#wrapper{
+	margin: 0 auto;
+	max-width: 1200px;
+}
+/*Overall stuff end*/
+
+/*Navigation*/
+nav{
+	margin: 0% 0;
+	padding-top: 2%;
+	background-color: rgb(0, 0, 0);
+
+	ul{
+		display: flex;
+		justify-content: space-around;
+		flex-direction: row;
+		list-style-type: none;
+		margin-bottom: 0;
+
+		li{
+			text-align: center;
+		}
+	}
+}
+
+nav a{
+	width: 100%;
+	font-family: 'Miss Fajardose', cursive;
+	text-decoration: none;
+	color: #FFF;
+	font-size: 3em;
+}
+/*Navigation end*/
